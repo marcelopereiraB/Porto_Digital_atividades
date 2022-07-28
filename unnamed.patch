@@ -1,0 +1,2743 @@
+Index: 0015.py
+===================================================================
+diff --git a/0015.py b/0015.py
+deleted file mode 100644
+--- a/0015.py	(revision aeea3d6199e7a97924b8f7f3c5791c7e89a3ca82)
++++ /dev/null	(revision aeea3d6199e7a97924b8f7f3c5791c7e89a3ca82)
+@@ -1,6 +0,0 @@
+-m = int(input('altura m: '))
+-m2 = int(input('largura m: '))
+-r = int(m * m2)
+-r2 = int(r * 2)
+-print('É necessario {} litros de tinta para a pintura'.format(r2))
+-
+Index: .idea/.gitignore
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(revision 69b5b1aa0ee1b4864e4fc0d8006109bdb01e1413)
++++ b/.idea/.gitignore	(revision 69b5b1aa0ee1b4864e4fc0d8006109bdb01e1413)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: .idea/inspectionProfiles/profiles_settings.xml
+===================================================================
+diff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml
+new file mode 100644
+--- /dev/null	(revision 69b5b1aa0ee1b4864e4fc0d8006109bdb01e1413)
++++ b/.idea/inspectionProfiles/profiles_settings.xml	(revision 69b5b1aa0ee1b4864e4fc0d8006109bdb01e1413)
+@@ -0,0 +1,6 @@
++<component name="InspectionProjectProfileManager">
++  <settings>
++    <option name="USE_PROJECT_PROFILE" value="false" />
++    <version value="1.0" />
++  </settings>
++</component>
+\ No newline at end of file
+Index: .idea/misc.xml
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(revision 69b5b1aa0ee1b4864e4fc0d8006109bdb01e1413)
++++ b/.idea/misc.xml	(revision 69b5b1aa0ee1b4864e4fc0d8006109bdb01e1413)
+@@ -0,0 +1,4 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10" project-jdk-type="Python SDK" />
++</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(revision 4b306b0f263ec46328adda77bbaf313679688b0a)
++++ b/.idea/modules.xml	(revision 4b306b0f263ec46328adda77bbaf313679688b0a)
+@@ -0,0 +1,10 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/../IFsul/.idea/IFsul.iml" filepath="$PROJECT_DIR$/../IFsul/.idea/IFsul.iml" />
++      <module fileurl="file://$PROJECT_DIR$/../python ETE/.idea/python ETE.iml" filepath="$PROJECT_DIR$/../python ETE/.idea/python ETE.iml" />
++      <module fileurl="file://$PROJECT_DIR$/.idea/pythonProject.iml" filepath="$PROJECT_DIR$/.idea/pythonProject.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/pythonProject.iml
+===================================================================
+diff --git a/.idea/pythonProject.iml b/.idea/pythonProject.iml
+new file mode 100644
+--- /dev/null	(revision 22850366c2fab0ef1973ad4eb93d11729a63093e)
++++ b/.idea/pythonProject.iml	(revision 22850366c2fab0ef1973ad4eb93d11729a63093e)
+@@ -0,0 +1,18 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="PYTHON_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$">
++      <excludeFolder url="file://$MODULE_DIR$/Curso em video Mundo  I - II - III/I" />
++      <excludeFolder url="file://$MODULE_DIR$/Curso em video Mundo  I - II - III/II" />
++      <excludeFolder url="file://$MODULE_DIR$/Curso em video Mundo  I - II - III/III" />
++      <excludeFolder url="file://$MODULE_DIR$/Curso em video Mundo  I - II - III" />
++    </content>
++    <content url="file://$MODULE_DIR$/Curso em video Mundo  I - II - III/I" />
++    <content url="file://$MODULE_DIR$/Curso em video Mundo  I - II - III/II" />
++    <content url="file://$MODULE_DIR$/Curso em video Mundo  I - II - III/III" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++    <orderEntry type="module" module-name="IFsul" />
++    <orderEntry type="module" module-name="python ETE" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/vcs.xml
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(revision 69b5b1aa0ee1b4864e4fc0d8006109bdb01e1413)
++++ b/.idea/vcs.xml	(revision 69b5b1aa0ee1b4864e4fc0d8006109bdb01e1413)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: 014.py
+===================================================================
+diff --git a/014.py b/014.py
+deleted file mode 100644
+--- a/014.py	(revision e3efd3be29975a0926b22993bde037abb027915d)
++++ /dev/null	(revision e3efd3be29975a0926b22993bde037abb027915d)
+@@ -1,3 +0,0 @@
+-d = float(input('Conversor R$: '))
+-d1 = float(d / 3.27)
+-print(' PODES COMPRAR: US {:.3} DOLARESSSS'.format(d1))
+Index: 002.py
+===================================================================
+diff --git a/002.py b/002.py
+deleted file mode 100644
+--- a/002.py	(revision 9b275adac825f693f82672f94e7657444324a39d)
++++ /dev/null	(revision 9b275adac825f693f82672f94e7657444324a39d)
+@@ -1,4 +0,0 @@
+-nome = input('Qual é seu nome: ')
+-print('Boas vindas, {}!'.format(nome))
+-
+-
+Index: Curso em video Mundo  I - II - III/I/002.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/002.py b/Curso em video Mundo  I - II - III/I/002.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/002.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,4 @@
++nome = input('Qual é seu nome: ')
++print('\033[1;34;43mBoas vindas, {}!\033[m'.format(nome))
++
++
+Index: Curso em video Mundo  I - II - III/I/003.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/003.py b/Curso em video Mundo  I - II - III/I/003.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/003.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,4 @@
++n1 = float(input('digite um número: '))
++n2 = float(input('digite mais um número: '))
++s = n1 + n2
++print('A soma entre {} e {} vale {}'.format(n1, n2, s))
+Index: Curso em video Mundo  I - II - III/I/004.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/004.py b/Curso em video Mundo  I - II - III/I/004.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/004.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,4 @@
++d1 = input('qual é seu nome? ')
++m2 = input('Mês de nascimento? ')
++a = input('ano de nascimento? ')
++print('seu nome é {} nascido em {}, {}'.format(d1, m2, a))
+Index: Curso em video Mundo  I - II - III/I/005.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/005.py b/Curso em video Mundo  I - II - III/I/005.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/005.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,5 @@
++n2 = int(input('digite um número: '))
++n1 = int(input('Digite um segundo número: '))
++x = n2 +n1
++print('O resultado da some de {} e {} é {}.'.format(n2, n1, x))
++
+Index: Curso em video Mundo  I - II - III/I/006.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/006.py b/Curso em video Mundo  I - II - III/I/006.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/006.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,11 @@
++te = input('Escreva algo: ')
++print('O tipo primitivo desse valor é ', type(te))
++print('Isso é um Alpha númerico?', te.isalnum())
++print('Está em minusculo?', te.islower())
++print('Esta em maiúsculo', te.isupper())
++print('É um número?', te.isnumeric())
++print('É um número decimal?', te.isdecimal())
++print('Consegue visualizar oque escreveu?', te.isprintable())
++print('não escreveu nada?', te.isspace())
++print('é uma letra?', te.isalpha())
++print('está capitalizada?', te.istitle())
+Index: Curso em video Mundo  I - II - III/I/007.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/007.py b/Curso em video Mundo  I - II - III/I/007.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/007.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,9 @@
++te = input('digite algo: ')
++x = str(type(te))
++x2 = str(te.isalpha())
++x3 = str(te.isspace())
++x4 = str(te.isnumeric())
++print('o tipo primitivo desse valor é{}.        '
++      'é alfabetico? {}.        '
++      'é preenchido por espaços?{}.     '
++      'é numerico?{}.   '.format(x, x2, x3, x4))
+Index: Curso em video Mundo  I - II - III/I/008.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/008.py b/Curso em video Mundo  I - II - III/I/008.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/008.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,12 @@
++n = int(input('um valor:'))
++n1 = int(input('outro valor: '))
++s = n + n1
++m = n * n1
++d = n / n1
++p = n ** n1
++g = n // n1
++j = n % n1
++print('A soma vale {}, \n o produto é {} e a divisão é {:.3f}'.format(s,m,d),end=' ')
++print('A potencia é {}, o inteiro {} e o resto da divisão {}'.format(p,g,j))
++
++
+Index: Curso em video Mundo  I - II - III/I/009.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/009.py b/Curso em video Mundo  I - II - III/I/009.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/009.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,6 @@
++n1 = int(input('digite um valor: '))
++n2 = int(input('digite outro valor: '))
++n5 = int(n1 + n2)
++n3 = int(n5 + 1)
++n4 = int(n5 - 1)
++print(' O valor da soma é {} \n Seu sucessor é {} \n e Antecessor é {}'.format(n5,n3,n4))
+Index: Curso em video Mundo  I - II - III/I/010.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/010.py b/Curso em video Mundo  I - II - III/I/010.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/010.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,6 @@
++M = int(input('digite um número: '))
++m2 = 2 * M
++m3 = 3 * M
++M4 = pow(M, (1/2))
++print(' O dobro  é {}\n O triplo é {}\n E sua raiz é {:.2f}'.format(m2,m3,M4))
++
+Index: Curso em video Mundo  I - II - III/I/011.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/011.py b/Curso em video Mundo  I - II - III/I/011.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/011.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,4 @@
++M = float(input('Nota da primeira unidade: '))
++M1 = float(input('Nota da segunda unidade: '))
++me = float((M + M1) / 2)
++print(' A MEDIA DO MELIANTE É {}'.format(me))
+Index: Curso em video Mundo  I - II - III/I/012.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/012.py b/Curso em video Mundo  I - II - III/I/012.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/012.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,5 @@
++Kl = float(input('conversor: '))
++Kl1 = float(Kl * 100)
++kl2 = float(Kl * 1000)
++print('A conversão em centimetros é {}. \n em milimetros é {}.'.format(Kl1,kl2))
++
+Index: Curso em video Mundo  I - II - III/I/013.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/013.py b/Curso em video Mundo  I - II - III/I/013.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/013.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,13 @@
++T = int(input('Sua tabuada: '))
++T0 = str(T)
++T1 = int(T * 1)
++T2 = int(T * 2)
++T3 = int(T * 3)
++T4 = int(T * 4)
++T5 = int(T * 5)
++T6 = int(T * 6)
++T7 = int(T * 7)
++T8 = int(T * 8)
++T9 = int(T * 9)
++T10 = int(T * 10)
++print('Sua tabuada é: \n {}X1 = {} \n {}X2 = {} \n {}X3 = {} \n {}X4 = {} \n {}X5 = {} \n {}X6 = {} \n {}X7 = {} \n {}X8 = {} \n {}X9 = {} \n {}X10 = {} '.format(T,T1,T,T2,T,T3,T,T4,T,T5,T,T6,T,T7,T,T8,T,T9,T,T10))
+Index: Curso em video Mundo  I - II - III/I/014.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/014.py b/Curso em video Mundo  I - II - III/I/014.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/014.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,3 @@
++d = float(input('Conversor R$: '))
++d1 = float(d / 3.27)
++print(' PODES COMPRAR: US {:.4} DOLARESSSS'.format(d1))
+Index: Curso em video Mundo  I - II - III/I/015.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/015.py b/Curso em video Mundo  I - II - III/I/015.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/015.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,7 @@
++m = float(input('largura da parede: '))
++m2 = float(input('altura da parede: '))
++r = m * m2
++r2 = r / 2
++print('Sua parede tem a dimensão de {}x{} e sua área é de {}m² {} litros de tinta para a pintura'.format(m, m2, r, r2))
++
++
+Index: Curso em video Mundo  I - II - III/I/016.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/016.py b/Curso em video Mundo  I - II - III/I/016.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/016.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,13 @@
++num = int(input('Digite sua tabuada:'))
++print('--'* 8)
++print('{}x{} = {}'.format(num, 1, num*1))
++print('{}x{} = {}'.format(num, 2, num*2))
++print('{}x{} = {}'.format(num, 3, num*3))
++print('{}x{} = {}'.format(num, 4, num*4))
++print('{}x{} = {}'.format(num, 5, num*5))
++print('{}x{} = {}'.format(num, 6, num*6))
++print('{}x{} = {}'.format(num, 7, num*7))
++print('{}x{} = {}'.format(num, 8, num*8))
++print('{}x{} = {}'.format(num, 9, num*9))
++print('{}x{} = {}'.format(num, 10, num*10))
++print('--'* 8)
+Index: Curso em video Mundo  I - II - III/I/017.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/017.py b/Curso em video Mundo  I - II - III/I/017.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/017.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,4 @@
++pro = float(input('qual é o preço do produto? '))
++des = float(pro - (pro * 20 / 100))
++print('o pruduto que custava {} vai sair em pormoção com desconto de 20% por R${:.3}'.format(pro, des))
++
+Index: Curso em video Mundo  I - II - III/I/018.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/018.py b/Curso em video Mundo  I - II - III/I/018.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/018.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,3 @@
++sa = float(input('qual é o salario de um funcionario R$: '))
++al = sa + (sa * 15 / 100)
++print('o funcionario ganhava {:.5}, agora com o almento de 15% passou a ganhar {:.5} por mês'.format(sa, al))
+Index: Curso em video Mundo  I - II - III/I/019.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/019.py b/Curso em video Mundo  I - II - III/I/019.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/019.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,4 @@
++ca = float(input('qual é o valor do produto? '))
++cartão = (ca + (ca * 5 / 100))
++dinheiro = (ca - (ca * 10 /100))
++print('O valor desse produto é R${}\n No cartão com acressimo de 8% fica R${:.5}\n Á vista com desconto de 10% é {:.5}'.format(ca, cartão, dinheiro))
+Index: Curso em video Mundo  I - II - III/I/020.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/020.py b/Curso em video Mundo  I - II - III/I/020.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/020.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,13 @@
++cel = float(input('conversor de graus celsius em Fahrenheit: '))
++conv = float(cel * 1.8 +31)
++conv2 = 9 * cel / 5 + 32
++print('a conversão de graus celsius em Fahrenheit é {:.4} \n {} '.format(conv, conv2))
++
++
++
++
++
++
++
++
++
+Index: Curso em video Mundo  I - II - III/I/021.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/021.py b/Curso em video Mundo  I - II - III/I/021.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/021.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,5 @@
++di = float(input('quantos dias alugados? '))
++kl = float(input('quantos Km rodados? '))
++alu = float(70 * di + (kl * 6))
++print('O total a pagar é de {}'.format(alu))
++
+Index: Curso em video Mundo  I - II - III/I/023.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/023.py b/Curso em video Mundo  I - II - III/I/023.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/023.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,9 @@
++from random import choice
++m = str(input('Qual rota? '))
++M = str(input('Qual é seu nome? '))
++rota1 = ['diana', 'Darius', 'Malphate', 'Olaf']
++rota2 = ['pyke', 'evellyn', 'aphelios', 'sivir']
++result = choice(rota1)
++print('Seu boneco é {}'.format(result))
++
++
+Index: Curso em video Mundo  I - II - III/I/024.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/024.py b/Curso em video Mundo  I - II - III/I/024.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/024.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,4 @@
++from math import sqrt
++num = int(input('digite um númemero: '))
++raiz = sqrt(num)
++print('a raiz de {} é igual a {}'.format(num, sqrt(raiz)))
+Index: Curso em video Mundo  I - II - III/I/025.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/025.py b/Curso em video Mundo  I - II - III/I/025.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/025.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,3 @@
++import random
++num = random.randint(1, 50)
++print(num)
+Index: Curso em video Mundo  I - II - III/I/026.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/026.py b/Curso em video Mundo  I - II - III/I/026.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/026.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,13 @@
++#exercicio 16
++from math import trunc
++num = float(input('digite um valor: '))
++num2 = trunc(num)
++print('você digitou o numero {} o valor inteiro dele é {}'.format(num, num2))
++#maneira 1
++import math
++num = float(input('digite um valor: '))
++print('você digitou o numero {} o valor inteiro dele é {}'.format(num, math.trunc(num)))
++
++
++
++
+Index: Curso em video Mundo  I - II - III/I/027.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/027.py b/Curso em video Mundo  I - II - III/I/027.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/027.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,14 @@
++import math
++nun = float(input('Qual é o valor do cateteo oposto:'))
++nun2 = float(input('Qual é o valor do cateto adjacente: '))
++nun3 = math.hypot(nun, nun2)
++print('O valor da hipotenusa é: {:.2f}'.format(nun3))
++# maneira 1
++from math import hypot
++ca = float(input('qual é o valor do cateto oposto: '))
++co = float(input('qual é o valor do cateto adjacente: '))
++hi = hypot(ca, co)
++print('o valor da hipotenusa é {:.2f}'.format(hi))
++
++
++
+Index: Curso em video Mundo  I - II - III/I/028.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/028.py b/Curso em video Mundo  I - II - III/I/028.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/028.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,24 @@
++import math
++n = float(input('digite o angulo que deseja: '))
++n1 = math.sin(math.radians(n))
++n2 = math.cos(math.radians(n))
++n3 = math.tan(math.radians(n))
++print('O angulo de {} tem o SENO de {:.2f} \n O angulo de {} tem o Cosseno de {:.2f} \n O anfulo de {} tem a TANGENTE é {:.2f}'.format(n, n1, n, n2, n, n3))
++#alternativa
++n = float( input('digite o angulo que deseja: '))
++seno = math.sin(math.radians(n))
++print('O angulo de {:.2f} tem o SENO de {:.2f}'.format(n, seno))
++coseno = math.cos(math.radians(n))
++print('O angulo de {} tem o cosseno de {:.2f}'.format(n, coseno))
++tangente = math.tan(math.radians(n))
++print(' o angulo de {} tem a tangente {:.2f}'.format(n,tangente))
++# 3 forma
++from math import sin, cos, tan, radians
++n = float( input('digite o angulo que deseja: '))
++seno = sin(radians(n))
++print('O angulo de {:.2f} tem o SENO de {:.2f}'.format(n, seno))
++coseno = cos(radians(n))
++print('O angulo de {} tem o cosseno de {:.2f}'.format(n, coseno))
++tangente = tan(radians(n))
++print(' o angulo de {} tem a tangente {:.2f}'.format(n,tangente))
++
+Index: Curso em video Mundo  I - II - III/I/029.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/029.py b/Curso em video Mundo  I - II - III/I/029.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/029.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,19 @@
++import random
++name1 = str(input('Primiero aluno: '))
++name2 = str(input('segundo aluno: '))
++name3 = str(input('Terceiro aluno: '))
++name4 = str(input('Quarto aluno: '))
++lista = [name1, name2, name3, name4]
++resultado = random.choice(lista)
++print('O aluno escolhido foi {}'.format(resultado))
++
++# outra forma
++from random import choice
++name= str(input('Priemiro aluno: '))
++name2 = str(input('Segundo aluno: '))
++name3 = str(input('Terceiro aluno: '))
++name4 = str(input('Quarto aluno: '))
++lista = [name, name2, name3, name4]
++escolhido = choice(lista)
++print('o escolhido foi {}'.format(escolhido))
++
+Index: Curso em video Mundo  I - II - III/I/030.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/030.py b/Curso em video Mundo  I - II - III/I/030.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/030.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,10 @@
++from random import shuffle
++name1 = str(input('primeiro aluno: '))
++name2 = str(input('segundo aluno: '))
++name3 = str(input('terceiro aluno: '))
++name4 = str(input('quarto aluno: '))
++lista = [name1, name2, name3, name4]
++shuffle(lista)
++print(' a ordem da lista sera ')
++print(lista)
++
+Index: Curso em video Mundo  I - II - III/I/031.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/031.py b/Curso em video Mundo  I - II - III/I/031.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/031.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,5 @@
++
++pygame.init()
++pygame.mixer.music.load('x031.mp3')
++pygame.mixer.music.play()
++pygame.event.wait()
+Index: Curso em video Mundo  I - II - III/I/032.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/032.py b/Curso em video Mundo  I - II - III/I/032.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/032.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,66 @@
++#len
++frase = 'I am Iron man bitch'
++print(len(frase))
++#count
++frase = 'I am Iron man bitch'
++b = frase.count('I')
++print(b)
++#find
++frase = 'I am Iron man bitch'
++c = frase.find('m')
++print(c)
++#replace
++frase = 'I am Iron man bitch'
++d = frase.replace('I am', 'I you')
++print(d)
++#upper
++frase = 'I am Iron man bitch'
++e = frase.upper()
++f = frase.lower()
++print(e, f)
++#capitalize
++frase = 'I am Iron man bitch'
++g = frase.capitalize()
++print(g)
++#title
++frase = 'I am Iron man bitch'
++h = frase.title()
++print(h)
++#strip
++frase = '       I am Iron man bitch      '
++i = frase.strip()
++j = frase.rstrip()
++k = frase.lstrip()
++print(i)
++print(j)
++print(k)
++#split
++frase = 'I am Iron man bitch'
++l = frase.split()
++print(l)
++#join
++frase = 'I am Iron man bitch'
++m = frase.splitlines()
++n = ' '.join(frase)
++print(m, n)
++
++#obs = como escrever texto maiores: """
++print("""Porque eu amo você texto?
++Você é maravilhosa e tudo o que 
++há de melhor neste mundo, será sempre pouco para você.
++Eu tudo vou fazer sempre para que você realize todos os seus sonhos e seja muito feliz.
++E enquanto você estiver ao meu lado, a minha felicidade está garantida. Amo a vida, amo viver, e tudo porque amo você""")
++# in
++frase = 'I am Iron man bitch'
++b = input('digite alguima merda: ')
++a = frase.replace('I am', b)
++print(a)
++#in
++frase = 'I am Iron man bitch'
++print('I am Iron man' in frase)
++#split
++frase = 'I am Iron man bitch'
++yu = frase.split()
++print(yu[2][1])
++
++
+Index: Curso em video Mundo  I - II - III/I/033.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/033.py b/Curso em video Mundo  I - II - III/I/033.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/033.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,25 @@
++#22
++nome = str(input('Qual é o seu nome completo? ')).strip()
++print('seu nome maiúsculo é {}'.format(nome.upper()))
++print('seu nome minusculo é {}'.format(nome.lower()))
++print('seu nome ao todo tem {} letras'.format(len(nome) - nome.count(' ')))
++print('seu primeiro nome tem {} letras'.format(nome.find(' ')))
++separa = nome.split()
++print('seu primeiro nome é {} e ele tem {} letras'.format(separa[0], len(separa[0])))
++#23
++numero = int(input('Digite um numero de 1 a 9999: '))
++u = numero // 1 % 10
++d = numero // 10 % 10
++c = numero // 100 % 10
++m = numero // 1000 % 10
++print('analisando o número {}'.format(numero))
++print('unidade: {}'.format(u))
++print('dezena: {}'.format(d))
++print('centena: {}'.format(c))
++print('Milhar: {}'.format(m))
++
++
++#24
++cidade = str(input('qual é o nome da sua cidade?')).strip()
++print(cidade[:5].upper() == 'SANTO')
++
+Index: Curso em video Mundo  I - II - III/I/034.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/034.py b/Curso em video Mundo  I - II - III/I/034.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/034.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,11 @@
++#25
++nome = str(input('qual é seu nome completo? ')).strip()
++print('seu nome tem Silva? {}'.format('SILVA' in nome.upper()))
++#26
++frase = str(input('digite uma frase: ')).upper().strip()
++print('quantas vezes a parece a letra A: {}'.format(frase.count('A')))
++print('sua primeira posição:', frase.find('A'))
++print('a ultima letra A apareceu na posição {}'.format(frase.rfind('A')))
++z = frase
++print(z)
++
+Index: Curso em video Mundo  I - II - III/I/035.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/035.py b/Curso em video Mundo  I - II - III/I/035.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/035.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,5 @@
++#27
++nome = str(input('seu nome completo: ')).upper().strip()
++nome = nome.split()
++print('seu primiero nome é nome {}'.format(nome[0]))
++print('seu ultimo nome é {}'.format(nome[len(nome)-1]))
+Index: Curso em video Mundo  I - II - III/I/036.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/036.py b/Curso em video Mundo  I - II - III/I/036.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/036.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,24 @@
++#AULA 10
++carro = int(input('quantos anos tem seu carro? '))
++if carro <= 5:
++    print('seu carro é bem novo em! só {} anos!'.format(carro))
++else:
++    print('seu carro é velho em kkkkkk')
++print('--fim--'.center(35))
++#exemplo 1
++nome = str(input('Qual é seu nome? ')).upper().strip()
++if nome == 'GUSTAVO':
++    print('seu nome é sim {}, boa tarde meu amor'.format(nome))
++else:
++    print('nem te conheço, seu fudido')
++print('fim'.center(25))
++#exemplo 2
++n1 = float(input('nota 1: '))
++n2 = float(input('nota 2: '))
++n3 = float(input('nota 3: '))
++n4 = float(input('nota 4: '))
++result = (n1 + n2 + n3 + n4) / 4
++if result <= 5.6:
++    print('você É BURRO EM MDS,\n REPROVOU!'.center(25))
++else:
++    print('você passou, parabens!!!! \n com a media: {:.2f}'.format(result))
+Index: Curso em video Mundo  I - II - III/I/037.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/037.py b/Curso em video Mundo  I - II - III/I/037.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/037.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,16 @@
++#28
++from random import choice
++from time import sleep
++numero = int(input('descubra o número que o pc escolheu de 0 a 5: '))
++lista = [1, 2, 3, 4, 5]
++pc = choice(lista)
++print('PROCESSANDO...')
++sleep(1)
++if pc == numero:
++    print('você acertou!!! o numero foi {}'.format(pc))
++
++else:
++    print('tu errou tente novamente!')
++    print('o numero escolhido foi {}'.format(pc))
++
++
+Index: Curso em video Mundo  I - II - III/I/038.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/038.py b/Curso em video Mundo  I - II - III/I/038.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/038.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,13 @@
++#29
++vel = float(input('qual é a sua velocidade nessa estrada? '))
++print('você foi multado'if vel >= 80.0 else 'está na velocidade normal da pista!')
++# metodo 2
++vel2 = float(input('qual é a sua velocidade nessa estrada? '))
++if vel2 >= 80.0:
++    print('você foi mutado!!!')
++    multa = (vel2 - 80) * 7
++    print('E o valor da sua multa é {}$'.format(multa))
++
++else:
++    print('está dentro da velocidade recomendada pra via!')
++print('tenha um bom dia!! dirija com segurança!')
+Index: Curso em video Mundo  I - II - III/I/039.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/039.py b/Curso em video Mundo  I - II - III/I/039.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/039.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,7 @@
++#30
++nu1 = int(input('saiba se o numero é par ou impar: '))
++result = nu1 % 2
++if result == 0:
++    print('o numero {} par'.format(nu1))
++else:
++    print('o numero {} é impar'.format(nu1))
+Index: Curso em video Mundo  I - II - III/I/040.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/040.py b/Curso em video Mundo  I - II - III/I/040.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/040.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,7 @@
++#31
++dis = float(input('qual é a distancia em kl da sua viagem? '))
++if dis <= 200.0:
++    preço = dis * 0.50
++else:
++    preço = dis * 0.45
++print('E o preço da sua passagem será de R${:.2f}'.format(preço))
+Index: Curso em video Mundo  I - II - III/I/041.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/041.py b/Curso em video Mundo  I - II - III/I/041.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/041.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,10 @@
++# 31
++from datetime import date
++
++bi = int(input('digite um ano pra saber se é bissexto: '))
++if bi == 0:
++    bi = date.today().year
++if bi % 4 == 0 and bi % 100 != 0 or bi % 400 == 0:
++    print('{} é sim um ano Bissexto!!'.format(bi))
++else:
++    print('{} não é um ano bissexto'.format(bi))
+Index: Curso em video Mundo  I - II - III/I/042.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/042.py b/Curso em video Mundo  I - II - III/I/042.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/042.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,16 @@
++# 33
++n1 = int(input('digite o primeiro número:'))
++n2 = int(input('digite o segundo número:'))
++n3 = int(input('digite o terceiro número:'))
++menor = n1
++if n2 < n1 and n2 < n3:
++    menor = n2
++if n3 < n1 and n3 < n2:
++    menor = n3
++maior = n2
++if n2 > n1 and n2 > n3:
++    maior = n2
++if n3 > n2 and n3 > n1:
++    maior = n3
++print('o maior valo digitado foi {}'.format(maior))
++print('O menor valor digitado foi {}'.format(menor))
+Index: Curso em video Mundo  I - II - III/I/043.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/043.py b/Curso em video Mundo  I - II - III/I/043.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/043.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,8 @@
++#34
++salario = float(input('digite seu salario pra saber se recebera um aumento: '))
++if salario <= 1.250:
++    novo = salario + (salario * 15 / 100)
++else:
++    novo = salario + (salario * 10 / 100)
++print('seu novo salario será R${}'.format(novo))
++
+Index: Curso em video Mundo  I - II - III/I/044.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/I/044.py b/Curso em video Mundo  I - II - III/I/044.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/I/044.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,14 @@
++#35
++from time import sleep
++print('-=-'*20)
++print('Analisador de triangulos')
++print('-=-'*20)
++a = float(input('comprimento da primeira reta: '))
++b = float(input('comprimento da segunda reta: '))
++c = float(input('comprimento da terceira reta:'))
++print('recolhendo informações...')
++sleep(2)
++if a + b > c and a + c > b and b + c > a:
++    print('sim com essas medidas conseguimos fazer um triangulo')
++else:
++    print('não conseguimos fazer um triangulo')
+Index: Curso em video Mundo  I - II - III/II/36.1.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/36.1.py b/Curso em video Mundo  I - II - III/II/36.1.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/36.1.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,12 @@
++# aula 12
++nome = str(input('me diga seu nome? '))
++if nome == 'Gustavo':
++    print('que nome bonito um bom dia')
++elif nome == 'Pedro' or nome == 'Maria' or nome == 'Páulo':
++    print('seu nome é bem popular no brasil')
++elif nome in 'Ana caludia jesica  juliana':
++    print('belo nome feminino')
++else:
++    print('seu nome é bem normal')
++print('bom dia')
++
+Index: Curso em video Mundo  I - II - III/II/36.2.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/36.2.py b/Curso em video Mundo  I - II - III/II/36.2.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/36.2.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,16 @@
++from time import sleep
++
++print('seu imprestimos bancarios é aqui!!! VEM!!')
++sleep(1)
++din = float(input('Qual é o valor da casa? '))
++sa = float(input('Qual é o seu salario? '))
++ano = int(input('Em quantos anos  quer pagar o imovel? '))
++pres = (din / ano) / 12
++po = sa - (sa * 70 / 100)
++if pres <= po:
++    print('Voce tem condiçoes para efetuar a compra do imovel, parabens!!!')
++    sleep(1)
++    print(f'suas parcelas ficaram no valor de R${pres:.2f},', end=' ')
++    print(f'emprestimo concedido')
++else:
++    print('infelizmente não podemos te ajudar, EMPRESTIMO NEGADO!')
+Index: Curso em video Mundo  I - II - III/II/37.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/37.py b/Curso em video Mundo  I - II - III/II/37.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/37.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,10 @@
++n1 = int(input('Digite um numero inteiro: '))
++n2 = str(input('Voce quer \n [1] para binário \n [2] para octal \n [3] para hexadecimal \n escolha: '))
++if n2 in '1':
++    print('{} convertido para binario é igual {}'.format(n1, bin(n1)[2:]))
++elif n2 in '2':
++    print('{} convertido para OCTAL é igual a {}'.format(n1, oct(n1)[2:]))
++elif n2 in '3':
++    print('{} convertido para HEXADECIMAL É IGUAL {}'.format(n1, hex(n1)[2:]))
++else:
++    print('numero invalido')
+\ No newline at end of file
+Index: Curso em video Mundo  I - II - III/II/38.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/38.py b/Curso em video Mundo  I - II - III/II/38.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/38.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,8 @@
++n1 = int(input('digite um numero: '))
++n2 = int(input('digite um segundo numero: '))
++if n1 > n2:
++    print(f'o valor {n1} é maior que o {n2}')
++elif n2 > n1:
++    print(f'o valor {n2} é maior que o {n1}')
++else:
++    print(' não existe valor maior, os dois são iguas')
+Index: Curso em video Mundo  I - II - III/II/39.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/39.py b/Curso em video Mundo  I - II - III/II/39.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/39.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,12 @@
++from datetime import date
++
++cal = date.today().year
++nas = int(input('qual seu ano de nascimento? '))
++idade = cal - nas
++if idade < 18:
++    print('voce ainda não atingiu a idade adequada')
++    print(f'seu alistamento sera em {(18 - idade) +cal}')
++elif idade == 18:
++    print('chegou a hr de se alistar, procure a justa militar assim que possivel')
++elif idade >= 19:
++    print(f'ainda não se alistou? esta com um atraso de {idade - 18} anos')
+Index: Curso em video Mundo  I - II - III/II/40.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/40.py b/Curso em video Mundo  I - II - III/II/40.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/40.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,12 @@
++n1 = float(input('digite sua primeira nota: '))
++n2 = float(input('digite sua segunda nota: '))
++media = (n1 + n2) / 2
++print(f'tirando {n1:.1f} e {n2:.1f}, a media do aluno é {media:.1f}')
++if media < 5:
++    print('REPROVADO!!')
++elif 7 > media >= 5:
++    print('RECUPERAÇÃO!!')
++    print(media)
++elif media >= 7:
++    print('APROVADO!!')
++    print(media)
+Index: Curso em video Mundo  I - II - III/II/41.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/41.py b/Curso em video Mundo  I - II - III/II/41.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/41.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,15 @@
++from datetime import date
++
++nas = int(input('digite seu ano de nasciemnto: '))
++ano = date.today().year
++cal = ano - nas
++if cal <= 9:
++    print(f'com {cal} anos, sua categoria é a mirim')
++elif cal <= 14:
++    print(f'com {cal} anos, sua categoria é infantil')
++elif cal <= 19:
++    print(f'com {cal} anos, sua categoria é junior')
++elif cal <= 25:
++    print(f'com {cal} anos, sua categoria é senior')
++else:
++    print('sua categoria é master')
+Index: Curso em video Mundo  I - II - III/II/42.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/42.py b/Curso em video Mundo  I - II - III/II/42.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/42.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,19 @@
++from time import sleep
++print('-=-'*20)
++print('Analisador de triangulos')
++print('-=-'*20)
++a = float(input('comprimento da primeira reta: '))
++b = float(input('comprimento da segunda reta: '))
++c = float(input('comprimento da terceira reta: '))
++print('recolhendo informações...')
++sleep(2)
++if a + b > c and a + c > b and b + c > a:
++    print('sim com essas medidas conseguimos fazer um triangulo', end=' ')
++    if c == a == b:
++        print('é um  triangulo equilatero')
++    elif a != b != c != a:
++        print('é um triangulo escaleno')
++    else:
++        print('é um triangulo isosceles')
++else:
++    print('não conseguimos fazer um triangulo')
+Index: Curso em video Mundo  I - II - III/II/43.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/43.py b/Curso em video Mundo  I - II - III/II/43.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/43.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,13 @@
++al = float(input('digite sua altura: '))
++pe = float(input('digite seu peso: '))
++imc = pe / (al**2)
++if imc <= 18.5:
++    print(f'abaixo do peso ideal. {imc:.1f}')
++elif 18.5 <= imc < 25:
++    print(f'peso ideal, {imc:.1f}')
++elif 25 <= imc < 30:
++    print(f'sobre peso, {imc:.1f} ')
++elif 30 <= imc < 40:
++    print(f'obesidade, {imc:.1f} ')
++else:
++    print(f'obesidade morbida, {imc:.1f} cuidado macho')
+Index: Curso em video Mundo  I - II - III/II/44.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/44.py b/Curso em video Mundo  I - II - III/II/44.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/44.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,22 @@
++print('{:=^40}'.format('lojas celin'))
++pag1 = float(input('Qual é o valor a ser pago? '))
++pag2 = str(input('''condiçoes de pagamento
++dinheiro/cheque      - [1] 
++a vista no cartão    - [2]
++em até 2x no cartão  - [3]
++3x ou mais no cartão - [4] 
++selecione: '''))
++if pag2 in '1':
++    print('o valor pago em dinheiro ou cheque é R${:.2f}'.format(pag1 - (pag1 * 10/100)))
++elif pag2 in '2':
++    print('o valor a vista no cartão fica R${:.2f}'.format(pag1 - (pag1 * 5/100)))
++elif pag2 in '3':
++    print('o valor a ser pago no cartão em até duas vezes é R${:.2f}'.format(pag1))
++elif pag2 in '4':
++    total = int(input('em quantas parcelas? '))
++    tote = pag1 + (pag1 * 20 / 100)
++    parcela = tote / total
++    print(f'sua compra de {tote} sera parcelada em {total}x de R${parcela:.2f} Com juros')
++else:
++    total = 0
++    print('opção invalida de pagamento, tente novamente')
+Index: Curso em video Mundo  I - II - III/II/45.1.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/45.1.py b/Curso em video Mundo  I - II - III/II/45.1.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/45.1.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,43 @@
++from random import randint
++from time import sleep
++itens = ('alguma ', 'PEDRA', 'PAPEL', 'TESOURA')
++computador = randint(0, 2)
++print('''suas opções:
++[ 1 ] PEDRA
++[ 2 ] TESOURA
++[ 3 ] PAPEL''')
++jogador = int(input('qual é a sua jogada? '))
++print('JO')
++sleep(0.4)
++print('KEN')
++sleep(0.4)
++print('PO')
++print(f'computador jogou {itens[computador]}')
++print(f'jogador jogou {itens[jogador]}')
++if computador == 1:
++    if jogador == 1:
++        print('empate')
++    elif jogador == 2:
++        print('computador venceu')
++    elif jogador == 3:
++        print('player  venceu')
++    else:
++        print('PLAYER invalida!')
++elif computador == 2:
++    if jogador == 3:
++        print('computador venceu!')
++    elif jogador == 1:
++        print('PLAYER venceu')
++    elif jogador == 2:
++        print('deu empate!')
++    else:
++        print('jogada invalida')
++elif computador == 3:
++    if jogador == 2:
++        print('PLAYER venceu!')
++    elif jogador == 1:
++        print('computador venceu')
++    elif jogador == 3:
++        print('empate')
++    else:
++        print('jogada invalida!!')
+Index: Curso em video Mundo  I - II - III/II/45.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/45.py b/Curso em video Mundo  I - II - III/II/45.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/45.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,25 @@
++import random
++from time import sleep
++
++print('Pedra papel e tesoura!!')
++sleep(1)
++n = str(input('pedra, papel ou tesoura? ')).upper()
++jokempo = ['PEDRA', 'PAPEL', 'TESOURA']
++brink = random.choice(jokempo)
++if brink == n:
++    print('deu empate kkkkkk')
++elif brink == 'TESOURA' and n == 'PAPEL':
++    print('VOCE PERDEU KKKKK')
++elif brink == 'PEDRA' and n == 'TESOURA':
++    print('VOCE PERDEUUU LLKKKKK')
++elif brink == 'PAPEL' and n == 'PEDRA':
++    print('vc perdeu kkkkkkk')
++elif n == 'TESOURA' and brink == 'PAPEL':
++    print('VOCE GANHOUUUUU LKKKKK')
++elif n == 'PEDRA' and brink == 'TESOURA':
++    print('VC GANHOU KKKKKK')
++elif n == 'PAPEL' and brink == 'PEDRA':
++    print('VOCE GANHOU LLKKKK')
++print(f'VC {n} o oponete {brink}')
++print('fim de jogo!')
++
+Index: Curso em video Mundo  I - II - III/II/46.1.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/46.1.py b/Curso em video Mundo  I - II - III/II/46.1.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/46.1.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,15 @@
++# aula 13
++for c in range(0, 7, 2): #iteração
++    print(c)
++print('fim')
++
++i = int(input('inicio: '))
++f = int(input('fim: '))
++p = int(input('passo'))
++for c in range(i, f+1, p):
++    print(c)
++s = 0
++for c in range(0, 3):
++    n = int(input('digite um valor: '))
++    s += n
++print(f'fim, {s}')
+Index: Curso em video Mundo  I - II - III/II/46.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/46.py b/Curso em video Mundo  I - II - III/II/46.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/46.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,5 @@
++import time
++for c in range(10, 0, -1):
++    time.sleep(0.5)
++    print(c)
++print('Feliz ano novo <3')
+Index: Curso em video Mundo  I - II - III/II/47.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/47.py b/Curso em video Mundo  I - II - III/II/47.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/47.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,3 @@
++for c in range(2, 51, 2):
++    print(c, end=' ')
++print('acabou')
+Index: Curso em video Mundo  I - II - III/II/48.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/48.py b/Curso em video Mundo  I - II - III/II/48.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/48.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,7 @@
++soma = 0
++contador = 0
++for c in range(1, 501, 2):
++    if c % 3 == 0:
++        soma += c
++        contador += 1
++print(f'a soma de todos sos numeros impares divisivos por 3 são {soma} com {contador} valores')
+Index: Curso em video Mundo  I - II - III/II/49.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/49.py b/Curso em video Mundo  I - II - III/II/49.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/49.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,5 @@
++n = int(input('Digite um número, vamos fazer sua tabuada: '))
++for c in range(1, 11):
++    ve = n * c
++    print(f'{c} X {n} = {ve}')
++
+Index: Curso em video Mundo  I - II - III/II/50.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/50.py b/Curso em video Mundo  I - II - III/II/50.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/50.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,9 @@
++soma = 0
++contador = 0
++for c in range(1, 7):
++    name = int(input(f'digite o {c} número: '))
++    if name % 2 == 0:
++        soma += name
++        contador += + 1
++print(f'voce adicionou {contador} numeros pares, e a soma deles é {soma}')
++
+Index: Curso em video Mundo  I - II - III/II/51.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/51.py b/Curso em video Mundo  I - II - III/II/51.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/51.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,5 @@
++n = int(input('digite o primeiro termo: '))
++r = int(input('digite um numero para a razão: '))
++decimo = n + (10 -1) * r
++for c in range(n, decimo + r, r):
++    print(c)
+Index: Curso em video Mundo  I - II - III/II/52.1.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/52.1.py b/Curso em video Mundo  I - II - III/II/52.1.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/52.1.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,15 @@
++nu = int(input('ditige um numero: '))
++tot = 0
++for c in range(1, nu +1):
++    if nu % c == 0:
++        print('\033[33m', end=' ')
++        tot += 1
++    else:
++        print('\033[31m', end=' ')
++    print(f'{c}', end=' ')
++
++print(f'o numero {nu} foi divisivel {tot}')
++if tot == 2:
++    print('e por isso ele é primo')
++else:
++    print('e por isso ele não é primo')
+Index: Curso em video Mundo  I - II - III/II/52.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/52.py b/Curso em video Mundo  I - II - III/II/52.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/52.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,15 @@
++import time
++cont = 0
++n = int(input('digite um numero: '))
++print('Analisando...')
++time.sleep(1)
++if n > 1:
++    for i in range(1, 11):
++        if n % i == 0:
++            cont += 1
++    if cont > 2:
++        print(f'não é primo, ele é divisivel {cont} vezes')
++    else:
++        print(f'é um numero primo, ele é disivivel apenas {cont}')
++else:
++    print('não é primo')
+Index: Curso em video Mundo  I - II - III/II/53.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/53.py b/Curso em video Mundo  I - II - III/II/53.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/53.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,10 @@
++frase = str(input('Digite uma frase: ')).strip().upper()
++palavras = frase.split() #fatiou a str
++junto = ''.join(palavras)# juntou todas desconsiderando os espaços
++inverso = ''
++for letra in range(len(junto)-1, -1, -1):
++    inverso += junto[letra]
++if inverso == junto:
++    print('temos um palindromo!')
++else:
++    print('A frase dgitada não é um palíndromo!')
+\ No newline at end of file
+Index: Curso em video Mundo  I - II - III/II/54.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/54.py b/Curso em video Mundo  I - II - III/II/54.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/54.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,17 @@
++from datetime import date
++ano = date.today().year
++contador1 = 0
++contador2 = 0
++for c in range(1, 8):
++    n1 = int(input(f'em que ano a {c}a nasceu? '))
++    result = ano - n1
++    if result >= 21:
++        contador1 += 1
++    else:
++        contador2 += 1
++print(f'{contador1} pessoas atingiram a maior idade')
++print(f'{contador2} pessoas não atingiram a maior idade')
++
++
++
++
+Index: Curso em video Mundo  I - II - III/II/55.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/55.py b/Curso em video Mundo  I - II - III/II/55.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/55.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,14 @@
++pesomaior = 0
++pesomenor = 0
++for c in range(1, 6):
++    peso = float(input(f'peso da {c}a pessoa: '))
++    if c == 1:
++        pesomaior = peso
++        pesomenor = peso
++    else:
++        if peso > pesomaior:
++            pesomaior = peso
++        if peso < pesomenor:
++            pesomenor = peso
++print(f'O maior peso lido foi {pesomaior}Kg')
++print(f'O menor peso lido foi {pesomenor}')
+Index: Curso em video Mundo  I - II - III/II/56.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/56.py b/Curso em video Mundo  I - II - III/II/56.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/56.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,24 @@
++somaidade = 0
++mediaidade = 0
++maioridadehomem = 0
++nomevelho = ''
++mulher20 = 0
++for c in range(1, 5):
++    nome = str(input('qual é seu nome? ')).strip()
++    idade = int(input('qual é a sua idade? '))
++    sexo = str(input('sexo [M/F]')).strip().upper()
++    somaidade += idade
++    if c == 1 and sexo in 'Mm':
++        maioridadehomem = idade
++        nomevelho = nome
++    if sexo in 'Mm' and idade > maioridadehomem:
++        maioridadehomem = idade
++        nomevelho = nome
++    if sexo in 'Ff' and idade < 20:
++        mulher20 += 1
++mediaidade = somaidade / 4
++print(f'A media de idade do grupo é de {mediaidade}')
++print(f'O homem mais velho tem {maioridadehomem} e se chama {nomevelho}.')
++print(f'são {mulher20} mulheres com menos de 20 anos')
++
++
+Index: Curso em video Mundo  I - II - III/II/57.1.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/57.1.py b/Curso em video Mundo  I - II - III/II/57.1.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/57.1.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,55 @@
++'''for c in range(1, 10):
++    print(c)
++print('fim')'''
++'''limite = 0
++n = 0
++while limite < 100:
++    n = int(input('um valor: '))
++    limite += n
++print(f'voce chegou no seu limite de {limite}')'''
++n = 1
++'''while n:
++    n = int(input('digite um numero: '))
++    if n > 0:
++        print('pode continuar')
++    if n == 0:
++        print('vc fez merda o p´rograma acabou')
++n = 1
++while n != 0:
++    n = int(input('digite um numero: '))
++print('fim')'''
++
++'''r = 'S'
++while r == 'S':
++    n = int(input('digite um numero: '))
++    r = str(input('quer continuar [S/N]? ')).upper()
++print('fim')'''
++'''lista = 0
++maxime = 0
++while maxime < 500:
++    nome = str(input('me diga seu nome completo: ')).upper()
++    lista = int(input('e seu nome na lista por favor: '))
++    maxime = maxime + lista
++    if nome in 'MARCELO PEREIRA':
++        print(f'bem vindo {nome}')
++    if maxime >= 500:
++        print('todos os convidados estão na festa!')'''
++
++'''n = 1
++while n != 0:
++    n = int(input('dgite um valor: '))
++    if n % 2 == 0:
++        print(f'o {n} é par')
++    else:
++        print(f'o {n} é impar')
++print('cabo')'''
++n = 1
++par = impar = 0
++while n != 0:
++    n = int(input('digite um valor: '))
++    if n != 0:
++        if n % 2 == 0:
++            par += 1
++        else:
++            impar += 1
++print(f'vc digitou {par} numeros par, e digitou {impar} numeros impar')
+\ No newline at end of file
+Index: Curso em video Mundo  I - II - III/II/57.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/57.py b/Curso em video Mundo  I - II - III/II/57.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/57.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,18 @@
++#maneira 1
++m = ''
++f = ''
++add = ''
++while m != 'M' or m != 'F':
++    m = str(input('digite seu sexo [M/F]? ')).strip().upper()[0]
++    idade = int(input('digite sua idade? '))
++    if m not in 'FM':
++        print('esta errado, digite novamente por favor')
++    if m == 'M' or m == 'F':
++        print('esta correta a informação recolhida!')
++
++#maneira 2
++sexo = str(input('digite seu sexo [S/M]')).strip().upper()[0]
++while sexo not in 'MF':
++    sexo = str(input('dados invalidos. por favor, informe seu sexo: ')).strip().upper()[0]
++iden = int(input('digite sua idade: '))
++print(f'sexo {sexo} registrado com sucesso')
+\ No newline at end of file
+Index: Curso em video Mundo  I - II - III/II/58.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/58.py b/Curso em video Mundo  I - II - III/II/58.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/58.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,31 @@
++# maneira 1
++import random
++m = random.randint(1, 10)
++c = 0
++contador = 1
++while m != c:
++    c = int(input('digite um número: '))
++    if m == c:
++        print(f'vc acetou!!! a maquina jogou {m}, o mesmo numero que vc. vc tentou {contador} vezes')
++    contador = contador + 1
++    if m != c:
++        print('vc ERROU, tente novamente!')
++
++#maneira 2
++from random import randint
++computador = randint(0, 10)
++palpites = 0
++print('sou seu computador... acabei de pensar em um nuemro entre 0 e 10.')
++print('será que vc consegue adivinhar qual é???')
++acertou = False
++while not acertou:
++    jogador = int(input('qual é seu palpite? '))
++    palpites += 1
++    if jogador == computador:
++        acertou = True
++    else:
++        if jogador < computador:
++            print('um valor maior em...')
++        elif jogador > computador:
++            print('um valor menor em...')
++print(f'acertou!!! com {palpites} palpites, parabens')
+Index: Curso em video Mundo  I - II - III/II/59.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/59.py b/Curso em video Mundo  I - II - III/II/59.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/59.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,30 @@
++n1 = int(input('digite seu primeiro valor: '))
++n2 = int(input('digite seu segundo valor: '))
++v = 0
++while v != 5:
++    v = int(input('''
++    [1] somar
++    [2] multiplicar
++    [3] maior
++    [4] novos números
++    [5] sair do programa
++     = '''))
++    if v == 1:
++        somar = n1 + n2
++        print(f' a soma de {n1} e {n2} é {somar}')
++    elif v == 2:
++        multiplicar = n1 * n2
++        print(f' a multiplicação de {n1}x{n2} é {multiplicar}')
++    elif v == 3:
++        if n1 > n2:
++            print(f' o {n1} maior que {n2}')
++        else:
++            print(f' o {n2} maior que {n1}')
++    elif v == 4:
++        n1 = int(input('digite um novo valor: '))
++        n2 = int(input('digite um novo valor: '))
++    elif v == 5:
++        print('obrigado, volte sempre!!!')
++    else:
++        print('opção invalida. tente novamente')
++
+Index: Curso em video Mundo  I - II - III/II/60.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/60.py b/Curso em video Mundo  I - II - III/II/60.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/60.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,20 @@
++#maneira 1
++'''import math
++n1 = int(input('digite um numero para fatorar: '))
++while n1 > 0:
++    fat = math.factorial(n1)
++    print(f'o fatorial de {n1} é {fat}')
++    break'''
++#maneira 2
++n = int(input('Digite um numero para calcular seu fatorial: '))
++c = n
++f = 1
++while c > 0:
++    print(f'{c}  ', end='')
++    print(' x ' if c > 1 else ' = ', end='')
++    f *= c
++    c -= 1
++print(f'{f}')
++
++
++
+Index: Curso em video Mundo  I - II - III/II/61.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/61.py b/Curso em video Mundo  I - II - III/II/61.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/61.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,10 @@
++
++n = int(input('digite o primeiro termo: '))
++r = int(input('digite a razão: '))
++termo = n
++cont = 1
++while cont <= 10:
++    print(f'{termo} -', end='')
++    termo += r
++    cont += 1
++print('fim')
+Index: Curso em video Mundo  I - II - III/II/62.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/62.py b/Curso em video Mundo  I - II - III/II/62.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/62.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,22 @@
++n = int(input('digite o primeiro termo: '))
++r = int(input('digite a razão: '))
++termo = n
++cont = 1
++total = 0
++mais = 10
++while mais != 0:
++    total += mais
++    while cont <= total:
++        print(f'{termo} -', end='')
++        termo += r
++        cont += 1
++    print('pausa')
++    mais = int(input('quantos termos voce quer mostar a mais? '))
++print(f'progreção finalizada com {total} termos')
++
++
++
++
++
++
++
+Index: Curso em video Mundo  I - II - III/II/63.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/63.py b/Curso em video Mundo  I - II - III/II/63.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/63.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,12 @@
++n = int(input('quantos termos vc quer mostrar? '))
++t1 = 0
++t2 = 1
++print(f'{t1} - {t2}', end=' - ')
++cont = 0
++while cont <= n:
++    t3 = t1 + t2
++    print(f'{t3}', end=' - ')
++    t1 = t2
++    t2 = t3
++    cont += 1
++print('fim')
+Index: Curso em video Mundo  I - II - III/II/64.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/64.py b/Curso em video Mundo  I - II - III/II/64.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/64.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,9 @@
++n = somar = contador = 0
++while n != 999:
++    n = int(input('digite um numero: '))
++    if n != 999:
++        contador += 1
++        somar += n
++print(f'vc digitou {contador} numeros e a soma deles é {somar}')
++
++
+Index: Curso em video Mundo  I - II - III/II/65.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/65.py b/Curso em video Mundo  I - II - III/II/65.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/65.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,16 @@
++r = 'S'
++maior = menor = media = contador = 0
++while r in 'Ss':
++    n1 = int(input('digite um numero: '))
++    media += n1
++    contador += 1
++    if contador == 1:
++       maior = menor = n1
++    else:
++        if n1 > maior:
++            maior = n1
++        if n1 < menor:
++            menor = n1
++    r = str(input('Quer continuar? [S/N]? ')).upper().strip()[0]
++mediageral = media / contador
++print(f'a media dos numeros adicionados foi {mediageral:.2f} o numero maior foi {maior} e o menor foi {menor}')
+Index: Curso em video Mundo  I - II - III/II/66.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/66.py b/Curso em video Mundo  I - II - III/II/66.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/66.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,8 @@
++s = contador = 0
++while True:
++    n = int(input('digite um numero (999 para parar): '))
++    if n == 999:
++        break
++    s += n
++    contador += 1
++print(f'Com o tatal de {contador} numeros digitados, a soma de todos é {s}')
+Index: Curso em video Mundo  I - II - III/II/67.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/67.py b/Curso em video Mundo  I - II - III/II/67.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/67.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,15 @@
++tabu = 0
++while True:
++    nu = int(input('digite um numero para fazermos sua tabuada: '))
++    if nu < 0:
++        break
++    for c in range(1, 11):
++        mult = nu * c
++        print(f'{nu} X {c} = {mult}')
++print('programa finalizado, obrigado <3')
++
++
++
++
++
++
+Index: Curso em video Mundo  I - II - III/II/68.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/68.py b/Curso em video Mundo  I - II - III/II/68.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/68.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,62 @@
++# meu jeito
++import random
++while True:
++    n = int(input('jogue um numero: '))
++    i = str(input('impar ou par [I/P]')).upper().strip()[0]
++    pc2 = random.randint(1, 10)
++    soma = pc2 + n
++    lista = ['P', 'I']
++    pc = random.choice(lista)
++    if soma % 2 == 0 and i in 'Ii' and pc == 'I':
++        print(f'os dois escolheram impar, com o total de  {soma} - Os dois perderam')
++        break
++    elif soma % 2 == 0 and i in 'Pp' and pc == 'P':
++        print(f'Houve um empate a soma dos numeros foi {soma} - Os dois jogaram Par')
++        print('continue')
++    elif soma % 2 == 0 and i in 'Pp' and pc == 'I':
++        print(f'vc ganhou, a soma dos numeros foi {soma} - O pc escolheu Impar')
++        print('continue...')
++    elif soma % 2 == 0 and i in 'Ii' and pc == 'P':
++        print(f'computador ganhou, com o valor total de {soma} - Jogador escolheu Impar')
++        break
++    elif soma % 2 != 0 and i in 'Ii' and pc == 'P':
++        print(f'jogador ganhou, com o valor total de {soma} - Pc jogou Par ')
++        print('continue')
++    elif soma % 2 != 0 and i in 'Pp' and pc == 'I':
++        print(f'voce perdeuuu, com o valor total de {soma} - Jogador escolheu Par')
++        break
++    elif soma % 2 != 0 and i in 'Pp' and pc == 'P':
++        print(f'os dois perderam, com o valor total de {soma} - Os dois jogaram Par')
++        break
++    elif soma % 2 != 0 and i in 'Ii' and pc == 'I':
++        print(f'houve um empate, com o valor total de {soma} - os dois jogaram Impar')
++        print('continue')
++# curso em video
++from random import randint
++v = 0
++while True:
++    jogador = int(input('diga um valor: '))
++    computador = randint(0, 11)
++    total = jogador + computador
++    tipo = ' '
++    while tipo not in 'PI':
++        tipo = str(input('par ou impar? [P/I] ')).strip().upper()[0]
++        print(f'vc jogou {jogador} e o computador {computador}. total de {total}')
++        print('deu par' if total % 2 == 0 else 'deu impar')
++    if tipo == 'P':
++        if total % 2 == 0:
++            print('vc venceu!')
++            v += 1
++        else:
++            print('vc perdeu!')
++            break
++    elif tipo == 'I':
++        if total % 2 == 1:
++            print('vc venceu!')
++            v += 1
++        else:
++            print('vc perdeu!')
++            break
++    print('vamos jogar novamente...')
++
++print(f'vc venceu {v}')
+\ No newline at end of file
+Index: Curso em video Mundo  I - II - III/II/69.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/69.py b/Curso em video Mundo  I - II - III/II/69.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/69.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,25 @@
++
++frase = 'CADASTRE UMA PESSOA.'
++print(frase.center(50))
++v = c = z = 0
++while True:
++    idade = int(input('idade: '))
++    sexo = ' '
++    while sexo not in 'MF':
++        sexo = str(input('sexo: [M/F] ')).strip().upper()[0]
++    if idade >= 18:
++        v += 1
++    if sexo == 'M':
++        c += 1
++    if sexo == 'F' and idade < 20:
++        z += 1
++
++    resp = ' '
++    while resp not in 'SN':
++        resp = str(input('Quer continuar? [S/N]')).strip().upper()[0]
++    if resp == 'N':
++        break
++print(f'total de pessoas com mais de 18 anos: {v}')
++print(f'Ao todo temos {c} homens cadastrados')
++print(f'e temos {z} mulher com menos de 20 anos')
++
+Index: Curso em video Mundo  I - II - III/II/70.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/70.py b/Curso em video Mundo  I - II - III/II/70.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/70.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,24 @@
++print('-'*50)
++frase = 'LOJA SUPER BARATÃO'
++print(frase.center(50))
++print('-'*50)
++total = total1 = menor = contador = 0
++barato = ''
++while True:
++    produto = str(input('nome do produto: '))
++    preco = int(input('Preço: R$'))
++    contador += 1
++    total = total + preco
++    if preco > 1000:
++        total1 += 1
++    if contador == 1 or preco < menor:
++        menor = preco
++        barato = produto
++    resp = ' '
++    while resp not in 'SN':
++        resp = str(input('quer continuar? [S/N] ')).strip().upper()[0]
++    if resp == 'N':
++        break
++print(f'O valor total gasto foi R${total:.2f}')
++print(f'{total1} produtos custam mais de R$1,000')
++print(f'o produto mais barato foi {barato} que custa R${menor:.2f}')
+Index: Curso em video Mundo  I - II - III/II/71.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/II/71.py b/Curso em video Mundo  I - II - III/II/71.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/II/71.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,24 @@
++print('='*30)
++print('{:^30}'.format('BANCO CEV'))
++print('='*30)
++valor = int(input('Que valor vc quer sacar? R$'))
++total = valor
++ced = 50
++totalced = 0
++while True:
++    if total >= ced:
++        total -= ced
++        totalced += 1
++    else:
++        if totalced > 0:
++            print(f'total de {totalced} cédulas de R${ced}')
++        if ced == 50:
++            ced = 20
++        elif ced == 20:
++            ced = 10
++        elif ced == 10:
++            ced = 1
++        totalced = 0
++        if total == 0:
++            break
++print('volte sempre ao banco curso em video!!!')
+Index: Curso em video Mundo  I - II - III/III/72.1.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/III/72.1.py b/Curso em video Mundo  I - II - III/III/72.1.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/III/72.1.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,31 @@
++lanches = ('Hamburgues', 'Suco', 'Pizza', 'Pudim', 'MilkShake')
++#1
++for c in lanches:
++    print(f'eu como {c}')
++
++#1.2
++for c in lanches:
++    if c == lanches[1] or c == lanches[4]:
++        print(f'eu vou tomar {c}')
++    else:
++        print(f'eu vou comer {c}')
++print('comi muito emmmmmmm')
++
++#2
++for cont in range(0, len(lanches)):
++    print(lanches[cont], cont)
++    #enumerate = criando outra varia no laço for pode-se enumerar os indices
++
++#3
++for vip, comida in enumerate(lanches):
++    print(f'seu dado armazenado na posição {vip} é {comida}')
++#sorted = organizado
++print(sorted(lanches))
++
++#função index = indice
++c = (1, 2, 3, 5)
++v = (2, 3, 6, 5)
++x = c + v
++print(x.count(6))
++print(x)
++print(x.index(5), x.index(5, 4))
+Index: Curso em video Mundo  I - II - III/III/72.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/III/72.py b/Curso em video Mundo  I - II - III/III/72.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/III/72.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,6 @@
++nume = ('zero', 'um', 'dois', 'três', 'quadro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez', 'onze', 'doze', 'treze',
++        'quatoze', 'quinze', 'dezesseis', 'dezessete', 'dezoito', 'dezenove', 'vinte')
++n = int(input('digite um numero entre 0 e 20: '))
++while n < 0 or n > 20:
++    n = int(input('Digite novamente. Digite um numero entre 0 e 20: '))
++print(f'você digitou o numero {nume[n]}')
+Index: Curso em video Mundo  I - II - III/III/73.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/III/73.py b/Curso em video Mundo  I - II - III/III/73.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/III/73.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,51 @@
++times = (
++'esses são os 5 primeiros colocados:', 'Palmeiras', 'athetico-PR', 'atletico-MG', 'corinthians', 'internacional', 'fluminense', 'são paulo', 'flamengo',
++'botafogo',
++'santos', 'avai', 'coritiba', 'america-MG', 'bragantino', 'ceara SD','Esses são os 5 ultimos colocados', 'atletico-GO', 'goias', 'cuiaba', 'juventude',
++'fortaleza')
++times2 = (
++'palmeiras', 'athetico-PR', 'atletico-MG', 'corinthians', 'internacional', 'fluminense', 'são paulo', 'flamengo', 'botafogo',
++'santos', 'avai', 'coritiba', 'america-MG', 'bragantino', 'ceara SD', 'atletico-GO', 'goias', 'cuiaba', 'juventude',
++'fortaleza')
++op = 0
++while op != 5 and 0 <= op < 5:
++    op = int(input('''
++    [1] Os cinco primeiros times da tabela.
++    [2] Os ultimos quatro times da tabela.
++    [3] Todos os times em ordem alfabetica
++    [4] Qual a posição do Bragantino. 
++    [5] Finalizar Programa: '''))
++    if op == 1:
++        for t1, t2 in enumerate(times[0:6]):
++            print(t1, t2)
++        caso = str(input('ver todas as opções novamente? ')).strip().upper()[0]
++        if caso == 'S':
++            True
++        else:
++            print('OBRIGADO!!')
++            break
++    elif op == 2:
++        for t1, t2 in enumerate(times[16:]):
++            print(t1, t2)
++        caso = str(input('ver todas as opções novamente? ')).strip().upper()[0]
++        if caso == 'S':
++             True
++        else:
++            print('OBRIGADO!!')
++            break
++    elif op == 3:
++        print(f'Aqui está todos os times em ordem alfabetica: \n{sorted(times2)}')
++        caso = str(input('Ver todas as opções novamente? ')).strip().upper()[0]
++        if caso == 'S':
++            True
++        else:
++            print('OBRIGADO!!')
++            break
++    elif op == 4:
++        print(f'O bragantino está na {times2.index("bragantino")}a posição da tabela')
++        caso = str(input('ver todas as opções novmente? ')).strip().upper()[0]
++        if caso == 'S':
++            True
++        else:
++            print('OBRIGADO!!')
++            break
+Index: Curso em video Mundo  I - II - III/III/74.1.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/III/74.1.py b/Curso em video Mundo  I - II - III/III/74.1.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/III/74.1.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,11 @@
++#como add elementos em um tupla com função e sem
++tu = (int(input('insira um numero: ')), int(input('insita um numero: ')), int(input('insira um numero: ')), int(input('digite um numero: ')))
++print(tu)
++
++def funcao():
++    return int(input('insira um numero: '))
++
++
++tupla = (funcao(), funcao(), funcao(), funcao())
++print(tupla.count(10))
++print(tupla)
+Index: Curso em video Mundo  I - II - III/III/74.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/III/74.py b/Curso em video Mundo  I - II - III/III/74.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/III/74.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,61 @@
++from random import randint
++
++v = (randint(0, 10), randint(0, 10), randint(0, 10), randint(0, 10))
++print(f'Os numeros sorteados foram: {v}')
++menor = maior = 0
++while True:
++    if v[0] > v[1]:
++        maior += v[0]
++    if maior < v[1]:
++        maior = v[1]
++    if maior < v[2]:
++        maior = v[2]
++    if maior < v[3]:
++        maior = v[3]
++
++    if menor < v[0]:
++        menor += v[0]
++    if menor > v[1]:
++        menor = v[1]
++    if menor > v[2]:
++        menor = v[2]
++    if menor > v[3]:
++        menor = v[3]
++    print(f'O MAIOR NUMERO SORTEADO FOI {maior}')
++    print(f'O MENOR VALOR SORTEADO FOI {menor}')
++    break
++
++# 2 forma
++v = (randint(0, 10), randint(0, 10), randint(0, 10), randint(0, 10))
++print(f'Os numeros sorteados foram: {v}')
++for n in v:
++    print(f'{n}', end=' ')
++print(f'\nO maior valor sorteado foi {max(v)}')
++print(f'O menor valor sorteado foi {min(v)}')
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++
++    #if v[0] > v[1]:
++        #print(f'O menor valor sorteado foi {v[0]}')
++    #elif v[0] > v[2]:
++        #print(f'O menor valor sorteado foi {v[0]}')
++    #elif v[0] > v[3]:
++        #print(f'O menor valor sorteado foi {v[0]}')
++    #elif v[1] > v[0]:
+Index: Curso em video Mundo  I - II - III/III/75.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/III/75.py b/Curso em video Mundo  I - II - III/III/75.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/III/75.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,35 @@
++def funcao():
++    return int(input('insira um numero: '))
++
++
++tupla = (funcao(), funcao(), funcao(), funcao())
++print(tupla)
++
++if 9 in tupla:
++    print(f'O numero 9 apareceu {tupla.count(9)} vezes')
++else:
++    print('o numero 9 não apareceu nenhuma vez.')
++if 3 in tupla:
++    print(f'a primeira ocorrencia do numero 3 é na posição {tupla.index(3)}')
++else:
++    print('não houve ocorrencia do numero 3.')
++print(f'os valores pares digitados foram ', end='')
++for t in tupla:
++    if t % 2 == 0:
++        print(t, end=' ')
++
++
++#2 forma
++num = (int(input('\ndigite um número: ')),
++        int(input('digite um número: ')),
++        int(input('digite um número: ')),
++        int(input('digite um número: ')))
++print(f'vc digitou os valores {num}')
++print(f' o valor 9 apareceu {num.count(9)} vezes')
++if 3 in num:
++    print(f'o valor 3 apareceu {num.index(3)}a posição')
++else:
++    print('numero 3 não existente')
++for n in num:
++    if n % 2 == 0:
++        print(n, end=' ')
+\ No newline at end of file
+Index: Curso em video Mundo  I - II - III/III/76.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/III/76.py b/Curso em video Mundo  I - II - III/III/76.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/III/76.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,10 @@
++listagem = ('pão', 1.50,
++            'peixe', 10,
++            'abacaxi', 3,
++            'banana', 2,
++            'arroz', 4)
++for iten in range(0, len(listagem)):
++    if iten % 2 == 0:
++        print(f'{listagem[iten]:.<30}', end=' ')
++    else:
++        print(f'R${listagem[iten]:>6.2f}')
+Index: Curso em video Mundo  I - II - III/III/77.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/III/77.py b/Curso em video Mundo  I - II - III/III/77.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/III/77.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,8 @@
++palvras = ('armario', 'casa', 'jornal', 'maduro'
++           , 'inativo', 'sempre'
++           , 'estudar', 'te amo', 'alana')
++for p in palvras:
++    print(f'\nna palavra {p.upper()} temos ', end='')
++    for letra in p:
++        if letra.lower() in 'aeiou':
++            print(letra, end=' ')
+Index: Curso em video Mundo  I - II - III/III/78.1.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/III/78.1.py b/Curso em video Mundo  I - II - III/III/78.1.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/III/78.1.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,33 @@
++# metodos de adicionar em uma lista
++lista = [1, 2, 3, 4, 5, 6]
++lista2 = [10, 9, 6, 7, 4, 1, 2, 5]
++lista.append(0) # final
++nu = lista2.sort()
++lista.insert(0, 'macaco') # add em qualquer lugar da lista com referencial do indice
++# metodos de apagar elementos da lista
++del lista[3]
++lista.pop(3) #sem o indice/parametro ele apaga o ultimo elemento
++lista.remove('macaco') # elimina o conteudo dentro do parametro
++#criar lista
++valor = list(range(1, 12))
++print(sorted(lista2))# organiza
++print(sorted(lista2, reverse=True)) #faz o inverso
++print(lista)
++print(valor)
++
++
++lista3 = []
++for cont in range(0, 5):
++    lista3.append(int(input('digite um numero: ')))
++for c, v in enumerate(lista3):
++    print(f'no indice {c} esta armazenado o valor {v}')
++
++a = [1, 2, 3, 4, 10]
++b = [10, 9, 11, 12]
++b = a # cria uma ligação entre as duas listas se eu mudar uma muda a outra
++
++b[2] = 52
++print(b)
++print(a)
++# fazendo copia de uma lista
++b = a[:] # para todos os elementos de a agora estão dentro de b como uma copia
+Index: Curso em video Mundo  I - II - III/III/78.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/III/78.py b/Curso em video Mundo  I - II - III/III/78.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/III/78.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,10 @@
++lista = []
++for t in range(0, 5):
++    lista.append(int(input('digite um numero: ')))
++ma = lista.index(min(lista))
++mi = lista.index(max(lista))
++print(lista)
++
++print(f'O maior valor digitado foi {max(lista)} na posição {mi}...')
++print(f'O menor valor digitado foi {min(lista)} na posição {ma}...')
++
+Index: Curso em video Mundo  I - II - III/III/79.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/III/79.py b/Curso em video Mundo  I - II - III/III/79.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/III/79.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,19 @@
++from time import sleep
++lista = []
++while True:
++    v = lista.append(int(input('digite um valor: ')))
++
++    if v:
++        print('Valor duplicado! Não vou adicionar...')
++        lista.count(v)
++        lista.pop()
++    else:
++        print('adicionado com sucesso...')
++        sleep(1)
++
++    m = str(input('Quer continuar? [S/N]')).strip().upper()[0]
++
++    if m == 'N':
++        break
++
++print(sorted(lista))
+Index: Curso em video Mundo  I - II - III/III/80.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Curso em video Mundo  I - II - III/III/80.py b/Curso em video Mundo  I - II - III/III/80.py
+new file mode 100644
+--- /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ b/Curso em video Mundo  I - II - III/III/80.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -0,0 +1,9 @@
++lista = []
++cont = 0
++for cont in range(0, 4):
++    nu = int(input('digite um numero: '))
++    cont += 1
++    lista.insert(0, nu)
++
++print(cont)
++print(lista)
+Index: exe1.py
+===================================================================
+diff --git a/exe1.py b/exe1.py
+deleted file mode 100644
+--- a/exe1.py	(revision 9b275adac825f693f82672f94e7657444324a39d)
++++ /dev/null	(revision 9b275adac825f693f82672f94e7657444324a39d)
+@@ -1,2 +0,0 @@
+-msg = 'ola mundo'
+-print(msg)
+Index: 003.py
+===================================================================
+diff --git a/003.py b/003.py
+deleted file mode 100644
+--- a/003.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -1,4 +0,0 @@
+-n1 = float(input('digite um número: '))
+-n2 = float(input('digite mais um número: '))
+-s = n1 + n2
+-print('A soma entre {} e {} vale {}'.format(n1, n2, s))
+Index: 004.py
+===================================================================
+diff --git a/004.py b/004.py
+deleted file mode 100644
+--- a/004.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -1,4 +0,0 @@
+-d1 = input('qual é seu nome? ')
+-m2 = input('Mês de nascimento? ')
+-a = input('ano de nascimento? ')
+-print('seu nome é {} nascido em {}, {}'.format(d1, m2, a))
+Index: 005.py
+===================================================================
+diff --git a/005.py b/005.py
+deleted file mode 100644
+--- a/005.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -1,5 +0,0 @@
+-n2 = int(input('digite um número: '))
+-n1 = int(input('Digite um segundo número: '))
+-x = n2 +n1
+-print('O resultado da some de {} e {} é {}.'.format(n2, n1, x))
+-
+Index: 006.py
+===================================================================
+diff --git a/006.py b/006.py
+deleted file mode 100644
+--- a/006.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -1,11 +0,0 @@
+-te = input('Escreva algo: ')
+-print('O tipo primitivo desse valor é ', type(te))
+-print('Isso é um Alpha númerico?', te.isalnum())
+-print('Está em minusculo?', te.islower())
+-print('Esta em maiúsculo', te.isupper())
+-print('É um número?', te.isnumeric())
+-print('É um número decimal?', te.isdecimal())
+-print('Consegue visualizar oque escreveu?', te.isprintable())
+-print('não escreveu nada?', te.isspace())
+-print('é uma letra?', te.isalpha())
+-print('está capitalizada?', te.istitle())
+Index: 007.py
+===================================================================
+diff --git a/007.py b/007.py
+deleted file mode 100644
+--- a/007.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -1,9 +0,0 @@
+-te = input('digite algo: ')
+-x = str(type(te))
+-x2 = str(te.isalpha())
+-x3 = str(te.isspace())
+-x4 = str(te.isnumeric())
+-print('o tipo primitivo desse valor é{}.        '
+-      'é alfabetico? {}.        '
+-      'é preenchido por espaços?{}.     '
+-      'é numerico?{}.   '.format(x, x2, x3, x4))
+Index: 008.py
+===================================================================
+diff --git a/008.py b/008.py
+deleted file mode 100644
+--- a/008.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -1,12 +0,0 @@
+-n = int(input('um valor:'))
+-n1 = int(input('outro valor: '))
+-s = n + n1
+-m = n * n1
+-d = n / n1
+-p = n ** n1
+-g = n // n1
+-j = n % n1
+-print('A soma vale {}, \n o produto é {} e a divisão é {:.3f}'.format(s,m,d),end=' ')
+-print('A potencia é {}, o inteiro {} e o resto da divisão {}'.format(p,g,j))
+-
+-
+Index: 009.py
+===================================================================
+diff --git a/009.py b/009.py
+deleted file mode 100644
+--- a/009.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -1,6 +0,0 @@
+-n1 = int(input('digite um valor: '))
+-n2 = int(input('digite outro valor: '))
+-n5 = int(n1 + n2)
+-n3 = int(n5 + 1)
+-n4 = int(n5 - 1)
+-print(' O valor da soma é {} \n Seu sucessor é {} \n e Antecessor é {}'.format(n5,n3,n4))
+Index: 010.py
+===================================================================
+diff --git a/010.py b/010.py
+deleted file mode 100644
+--- a/010.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -1,6 +0,0 @@
+-M = int(input('digite um número: '))
+-m2 = 2 * M
+-m3 = 3 * M
+-M4 = pow(M, (1/2))
+-print(' O dobro  é {}\n O triplo é {}\n E sua raiz é {:.2f}'.format(m2,m3,M4))
+-
+Index: 011.py
+===================================================================
+diff --git a/011.py b/011.py
+deleted file mode 100644
+--- a/011.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -1,4 +0,0 @@
+-M = float(input('Nota da primeira unidade: '))
+-M1 = float(input('Nota da segunda unidade: '))
+-me = float((M + M1) / 2)
+-print(' A MEDIA DO MELIANTE É {}'.format(me))
+Index: 012.py
+===================================================================
+diff --git a/012.py b/012.py
+deleted file mode 100644
+--- a/012.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -1,5 +0,0 @@
+-Kl = float(input('conversor: '))
+-Kl1 = float(Kl * 100)
+-kl2 = float(Kl * 1000)
+-print('A conversão em centimetros é {}. \n em milimetros é {}.'.format(Kl1,kl2))
+-
+Index: 013.py
+===================================================================
+diff --git a/013.py b/013.py
+deleted file mode 100644
+--- a/013.py	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
++++ /dev/null	(revision 863447ecc5c0cf134ca89479993b680bf3b3d541)
+@@ -1,13 +0,0 @@
+-T = int(input('Sua tabuada: '))
+-T0 = str(T)
+-T1 = int(T * 1)
+-T2 = int(T * 2)
+-T3 = int(T * 3)
+-T4 = int(T * 4)
+-T5 = int(T * 5)
+-T6 = int(T * 6)
+-T7 = int(T * 7)
+-T8 = int(T * 8)
+-T9 = int(T * 9)
+-T10 = int(T * 10)
+-print('Sua tabuada é: \n {}X1 = {} \n {}X2 = {} \n {}X3 = {} \n {}X4 = {} \n {}X5 = {} \n {}X6 = {} \n {}X7 = {} \n {}X8 = {} \n {}X9 = {} \n {}X10 = {} '.format(T,T1,T,T2,T,T3,T,T4,T,T5,T,T6,T,T7,T,T8,T,T9,T,T10))
+diff --git a/Curso em video Mundo  I - II - III/III/81.py b/Curso em video Mundo  I - II - III/III/81.py
+new file mode 100644
+diff --git a/Curso em video Mundo  I - II - III/III/82.py b/Curso em video Mundo  I - II - III/III/82.py
+new file mode 100644
+diff --git a/Curso em video Mundo  I - II - III/III/83.py b/Curso em video Mundo  I - II - III/III/83.py
+new file mode 100644
+diff --git a/Curso em video Mundo  I - II - III/III/84.1.py b/Curso em video Mundo  I - II - III/III/84.1.py
+new file mode 100644
+diff --git a/Curso em video Mundo  I - II - III/III/84.py b/Curso em video Mundo  I - II - III/III/84.py
+new file mode 100644
+diff --git a/Curso em video Mundo  I - II - III/III/85.py b/Curso em video Mundo  I - II - III/III/85.py
+new file mode 100644
+diff --git a/Curso em video Mundo  I - II - III/III/86.py b/Curso em video Mundo  I - II - III/III/86.py
+new file mode 100644
+diff --git a/Curso em video Mundo  I - II - III/III/87.py b/Curso em video Mundo  I - II - III/III/87.py
+new file mode 100644
+diff --git a/Curso em video Mundo  I - II - III/III/88.py b/Curso em video Mundo  I - II - III/III/88.py
+new file mode 100644
+diff --git a/Curso em video Mundo  I - II - III/III/89.py b/Curso em video Mundo  I - II - III/III/89.py
+new file mode 100644
