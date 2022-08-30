@@ -1,19 +1,15 @@
-from time import sleep
-lista = []
+numeros = list()
 while True:
-    v = lista.append(int(input('digite um valor: ')))
-
-    if v:
-        print('Valor duplicado! Não vou adicionar...')
-        lista.count(v)
-        lista.pop()
+    n = int(input('digite um numero: '))
+    if n not in numeros:
+        numeros.append(n)
+        print('valor adicionado com sucesso! ')
     else:
-        print('adicionado com sucesso...')
-        sleep(1)
-
-    m = str(input('Quer continuar? [S/N]')).strip().upper()[0]
-
-    if m == 'N':
+        print('valor duplicado! não inserido ')
+    r = str(input('quer continuar? [S/N] '))
+    if r in 'nN':
+        print('obrigado')
         break
+numeros.sort()
+print(f'você digitou o valo {numeros}')
 
-print(sorted(lista))

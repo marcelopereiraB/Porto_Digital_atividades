@@ -1,7 +1,7 @@
 # metodos de adicionar em uma lista
 lista = [1, 2, 3, 4, 5, 6]
 lista2 = [10, 9, 6, 7, 4, 1, 2, 5]
-lista.append(0) # final
+lista.append(0)# final
 nu = lista2.sort()
 lista.insert(0, 'macaco') # add em qualquer lugar da lista com referencial do indice
 # metodos de apagar elementos da lista
@@ -30,4 +30,4 @@ b[2] = 52
 print(b)
 print(a)
 # fazendo copia de uma lista
-b = a[:] # para todos os elementos de a agora estão dentro de b como uma copia
+b = a[:]# para todos os elementos de a agora estão dentro de b como uma copia

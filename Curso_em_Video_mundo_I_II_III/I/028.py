@@ -20,5 +20,5 @@ print('O angulo de {:.2f} tem o SENO de {:.2f}'.format(n, seno))
 coseno = cos(radians(n))
 print('O angulo de {} tem o cosseno de {:.2f}'.format(n, coseno))
 tangente = tan(radians(n))
-print(' o angulo de {} tem a tangente {:.2f}'.format(n,tangente))
+print(' o angulo de {} tem a tangente {:.2f}'.format(n,tangente)) pow()
 
